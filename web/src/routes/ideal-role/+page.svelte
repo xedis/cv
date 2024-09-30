@@ -7,40 +7,36 @@
   ];
 
   const intro = [
-    `I'm looking for a role where I can take on exciting challenges, and lead teams
-    to build top-notch customer-focused products.`,
-    `Quality and coding standards are super
-    important to me, and I love helping others level up their skills so we can
-    create something awesome together, which will bring joy to our customers.`,
-    `I'm passionate about building a strong,
-    supportive developer community with things like guilds, lunch & learns,
-    coding challenges, and learning pathways.`,
-    `Ultimately, I want to make sure all our developers are happy,
-    and have what they need to succeed and build products that customers will truly love.`
+    `I'm looking for a role that will leverage all the skills I have developed thus far and those I've yet to master. 
+    I enjoy complex and convoluted challenges where actions have subtle and nuanced impact, where the results might not come to light
+    immediately and are often otherwise overlooked. I enjoy travelling the road not yet travelled, paving the way in freshly fallen snow or an unexplored route.
+    I'm not great at following the path laid before me and I will often jump off it in search of a more optimized route (time permitting of course). I like to utilize 
+    the efforts of those who came before me and try to enhance it for the benefit of all. I prefer to not be the leader, yet have taken up the mantle when asked to.
+    I'm vocal and when I oppose an idea I always provide the why for discussion. I love being right, I love being wrong. `
   ];
 
   const requirements = [
-    { lbl: 'Location', desc: 'London-based, or a commutable distance from Central London' },
+    { lbl: 'Location', desc: 'Las Vegas' },
     { lbl: 'Contract Type', desc: 'Permanent, and ideally full-time' },
-    { lbl: 'Workspace', desc: 'While remote working can be great, I do love coming into the office, as I think it\'s important for team building and collaboration' },
-    { lbl: 'Seniority', desc: 'Engineering Manager or Principal Engineer role, but still with exposure to coding' },
-    { lbl: 'Discipline', desc: 'Full-Stack or Frontend' },
-    { lbl: 'Industry', desc: 'Fin tech, developer tools and custom-facing products' },
+    { lbl: 'Workspace', desc: 'Remote working is great, but it`s not for everyone as such Im willing to travel some, I do enjoy team meetups and trips to random locales if needed' },
+    { lbl: 'Seniority', desc: 'Engineer, Architect, experienced with a broad attack surface' },
+    { lbl: 'Discipline', desc: 'Security' },
+    { lbl: 'Industry', desc: 'Any, they all need Security' },
     { lbl: 'Comp', desc: 'Competitive salary, but I can and will be flexible on this for the right role' },
   ];
 
   const values = [
-    'Values quality and good coding standards',
-    'Dedicated to developer happiness',
-    'Investing in junior developers and fostering growth',
+    'Values quality and good security standards',
+    'Dedicated to org happiness',
+    'Investing in juniors and fostering growth',
     'Developing customer-focused products',
-    'Appreciates the value of open source',
+    'Appreciates the value of open source and gives back regularly',
     'Innovative, and an openness to trying new things',
   ];
 </script>
 
 <svelte:head>	
-	<title>Alicia Sykes | CV | Ideal Role</title>
+	<title>Chris Xedis | CV | Ideal Role</title>
 </svelte:head>
 
 <h1>What I'm looking for</h1>
@@ -72,9 +68,9 @@
 
 <h2>Why me?</h2>
 <p>
-  I'm an accomplished full-stack senior developer, just take a look at my recent <a href="/achievements">achievements</a> for evidence of this! 
+  I'm pretty awesome, just take a look at my recent <a href="/achievements">achievements</a> for evidence of this! 
   You can learn more about me, my attributes and the philosophy that drives me in my <a href="/intro">intro</a> page.
-  Or if you prefer to see my past work, take a look at my published apps at <a href="https://apps.aliciasykes.com">apps.aliciasykes.com</a>
+  Or if you prefer to see some of the stuff I've been setting up <a href="https://dashy.xedis.net">dashy.xedis.net</a>
 </p>
 
 <h2>Get in Touch</h2>
