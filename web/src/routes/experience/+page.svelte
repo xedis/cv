@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>	
-	<title>Alicia Sykes | CV | Experience</title>
+	<title>Chris Xedis | CV | Experience</title>
 </svelte:head>
 
 <h1>Experience</h1>
@@ -59,7 +59,7 @@
     padding: 1rem 0;
     font-size: 0.9rem;
     &:not(:last-child) {
-      border-bottom: 2px solid #d1cfcf;
+      border-bottom: 2px solid #0c0c0c;
     }
     .responsibilities {
       font-style: italic;

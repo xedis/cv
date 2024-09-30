@@ -2,23 +2,23 @@
   let emailVisible = false;
   const revealEmail = () => {
     emailVisible = true;
-    navigator.clipboard.writeText('hello@aliciasykes.com');
+    navigator.clipboard.writeText('hello@voidxedis.com');
   }
 </script>
 
 <svelte:head>	
-	<title>Alicia Sykes | CV | Contact</title>
+	<title>Chris Xedis | CV | Contact</title>
 </svelte:head>
 
 <h1>Contact</h1>
 
 <p>
-  If you're looking for an accomplished full-stack Principal Engineer or Engineering Manager, then I'd love to hear from you!
+  If you're looking for an accomplished Production Security Architect or something similar, I can master just about anything really, then I'd love to hear from you!
 </p>
 <p>
   You can get in touch by dropping me an email 
   {#if emailVisible}
-    <a href="mailto:hello@aliciasykes.com">hello@aliciasykes.com</a>
+    <a href="mailto:hello@voidxedis.com">hello@voidxedis.com</a>
   {:else}
     <button on:click={revealEmail} class="small-btn no-float" title="Click to show email address, and copy to clipboard">
       Reveal email address
@@ -26,10 +26,10 @@
   {/if}
   <br>
   Or for other communication channels,
-  see <a target="_blank" href="https://aliciasykes.com/contact">aliciasykes.com/contact</a>
+  see <a target="_blank" href="https://voidxedis.com/contact">voidxedis.com/contact</a>
 </p>
 <p>
-  Thank you for stopping by, and I really hope to hear from you!
+  Thank you for stopping by.
 </p>
 
 <div class="some-text">
@@ -40,9 +40,9 @@
     A shortened version of my CV in PDF format can be downloaded <a href="/download">here</a>.
   </p>
   <p>
-    Beyond that, I'm on LinkedIn, at <a href="https://www.linkedin.com/in/aliciasykes/">in/aliciasykes</a>
-    and GitHub at <a href="https://github.com/lissy93">@lissy93</a>.
-    A catalog of my recent open source apps can be found at <a href="https://apps.aliciasykes.com">apps.aliciasykes.com</a>
+    Beyond that, I'm on LinkedIn, at <a href="https://www.linkedin.com/in/xchrisx/">in/xchrisx</a>
+    and GitHub at <a href="https://github.com/xedis">@xedus</a>.
+    Additional stuff I've been messing with can be found <a href="https://dashy.xedis.net">dashy.xedis.net</a>
   </p>
   <p>
     To see if I'd be a good fit for your team, you can view my <a href="/ideal-role">ideal role</a>

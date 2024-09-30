@@ -4,155 +4,151 @@ import Language from '../../components/Language.svelte';
 
 const stats = [
   {
-    stat: '10M downloads on DockerHub',
-    source: 'https://hub.docker.com/u/lissy93',
+    stat: '0 downloads on DockerHub',
+    source: 'https://hub.docker.com/u/xedis',
   },
   {
-    stat: 'Top 100 developer on GitHub',
-    source: 'https://gitstar-ranking.com/Lissy93',
+    stat: 'Top 100000000 developer on GitHub',
+    source: 'https://gitstar-ranking.com/xedis',
   },
   {
-    stat: '10+ wins on global hackathons',
-    source: 'https://notes.aliciasykes.com/p/0s5s3uOtKj',
+    stat: '0+ wins on global hackathons',
+    source: 'https://trillium.xedis.net/',
   },
   {
-    stat: 'Top 1% helper on StackOverflow',
-    source: 'https://stackoverflow.com/users/979052/alicia-sykes',
+    stat: 'Top 1000% helper on StackOverflow',
+    source: 'https://stackoverflow.com/users/',
   },
   {
-    stat: '1M+ lines of code written',
-    source: 'https://codestats.net/users/alicia',
+    stat: '1+ lines of code written',
+    source: 'https://codestats.net/users/xedis',
   },
   {
-    stat: '1M+ annual unique users across my websites',
-    source: '',
+    stat: '1+ annual unique users across my websites',
+    source: 'https://umami.xedis.net',
   },
   {
-    stat: '10k+ subscribers to developer blog',
-    source: 'https://dev.to/lissy93',
+    stat: '0+ subscribers to developer blog',
+    source: 'https://dev.to/xedis',
   },
-  // {
-  //   stat: '5k+ followers on GitHub, X, Dev, LinkedIn etc',
-  //   source: 'https://github.com/lissy93',
-  // },
-  {
-    stat: '100+ repos I maintain or are a core contributor of',
-    source: 'https://github.com/Lissy93?tab=repositories&q=&type=&language=&sort=stargazers',
-  },
+   {
+    stat: '5+ followers on GitHub, X, Dev, LinkedIn etc',
+    source: 'https://github.com/xedis',
+   },
 ];
 
 const awards = [
   {
-    award: 'OpenUK Honors List 2024',
-    source: 'https://openuk.uk/community/openuk-honours-lists/2024-honours-list',
+    award: '4x Employee of the Month',
+    source: 'DTiQ',
   },
   {
-    award: 'GitHub Accelerator Program',
-    source: 'https://accelerator.github.com/',
-  },
-  {
-    award: 'BCS Best Computer Scient Project',
-    source: 'https://oxon.bcs.org/2016/06/27/annual-student-prizes-2016/',
-  },
+    award: '1x Employee of the Year',
+    source: 'DTiQ',
+  }
+ // {
+ //   award: '',
+ //   source: '',
+ // },
 ];
 
-const hackathonWins = [
-  {
-    line1: 'Won 1st place overall + Network Rail and TFL prizes at Infra-hack, London 2019',
-    line2: 'Used computer vision to identify incidents and determine station status, in real-time.',
-  },
-  {
-    line1: 'Won 1st place overall at StartHack, Switzerland 2019',
-    line2: 'Created Pax, to identify + remove flashes from video footage for photo-sensitive viewers.',
-  },
-  {
-    line1: 'Won Inteligen Buildings Award (KONE) at Hack Junction, Helsinki 2018',
-    line2: 'Build Elevate-to-Awesome, an IoT app to track and gamify taking the stairs',
-  },
-  {
-    line1: 'Won BlockChain Award (SwissCom) at StartHack, Switzerland 2018',
-    line2: 'Created UNwasted, a social food dapp to reduce waste, on the Ethereum network',
-  },
-  {
-    line1: 'Won 1st place overall at StartHack, Switzerland 2016',
-    line2: 'Developed system for real-time sentiment analysis of geographic social media data',
-  },
-  {
-    line1: 'Won 2nd place at AngelHack and HP sponsor prize Winner, London 2015',
-    line2: 'Created SmartDepart, an alarm to wake you up earlier if there are delays on your commute',
-  },
-  {
-    line1: 'Won 2nd place at NBC Universal Comcast hackathon, London 2015',
-    line2: 'Created an intelligent movie recommendation engine, implemented as Twitter bot',
-  },
-  {
-    line1: 'Won 1st place as team at HealthHack, London 2015',
-    line2: 'Build smart watch app for gamifying health tracking',
-  },
-  {
-    line1: 'Won 2nd place at AngelHack London 2014',
-    line2: 'Created Anti-Theft Charge, Android app that prevents theft while your device is charging',
-  },
-  {
-    line1: 'Won 2nd place (and Intelligent Headset main prize), DevLab Live London 2014',
-    line2: 'Made CityExplorer, interactive tour guide using accelerometers to determine line of site',
-  },
-];
+//const hackathonWins = [
+ // {
+ //   line1: 'Won 1st place overall + Network Rail and TFL prizes at Infra-hack, London 2019',
+ //   line2: 'Used computer vision to identify incidents and determine station status, in real-time.',
+ // },
+ // {
+ //   line1: 'Won 1st place overall at StartHack, Switzerland 2019',
+ //   line2: 'Created Pax, to identify + remove flashes from video footage for photo-sensitive viewers.',
+ // },
+ // {
+ //   line1: 'Won Inteligen Buildings Award (KONE) at Hack Junction, Helsinki 2018',
+ //   line2: 'Build Elevate-to-Awesome, an IoT app to track and gamify taking the stairs',
+ // },
+ // {
+ //   line1: 'Won BlockChain Award (SwissCom) at StartHack, Switzerland 2018',
+ //   line2: 'Created UNwasted, a social food dapp to reduce waste, on the Ethereum network',
+ // },
+ // {
+ //   line1: 'Won 1st place overall at StartHack, Switzerland 2016',
+ //   line2: 'Developed system for real-time sentiment analysis of geographic social media data',
+ // },
+ // {
+ //   line1: 'Won 2nd place at AngelHack and HP sponsor prize Winner, London 2015',
+ //   line2: 'Created SmartDepart, an alarm to wake you up earlier if there are delays on your commute',
+ // },
+ // {
+ //   line1: 'Won 2nd place at NBC Universal Comcast hackathon, London 2015',
+ //   line2: 'Created an intelligent movie recommendation engine, implemented as Twitter bot',
+ // },
+ // {
+ //   line1: 'Won 1st place as team at HealthHack, London 2015',
+ //   line2: 'Build smart watch app for gamifying health tracking',
+ // },
+ // {
+ //   line1: 'Won 2nd place at AngelHack London 2014',
+ //   line2: 'Created Anti-Theft Charge, Android app that prevents theft while your device is charging',
+ // },
+ // {
+ //   line1: 'Won 2nd place (and Intelligent Headset main prize), DevLab Live London 2014',
+ //   line2: 'Made CityExplorer, interactive tour guide using accelerometers to determine line of site',
+ // },
+//];
 
 const projects = [
+ // {
+ //   name: 'Dashy',
+ //   description: 'Control panel for self-hosting',
+ //   tech: 'Vue',
+ //   logo: 'https://dashy.to/img/dashy.png',
+ //   stars: '17k',
+ //   repo: 'lissy93/dashy',
+ //   web: 'https://dashy.to',
+ // },
+ // {
+ //   name: 'Web-Check',
+ //   description: 'All-in-one OSINT and security scanner',
+ //   tech: 'React',
+ //   logo: 'https://v1.web-check.xyz/web-check.png',
+ //   stars: '20k',
+ //   repo: 'lissy93/web-check',
+ //   web: 'https://web-check.xyz',
+ // },
+ // {
+ //   name: 'Digital Defense',
+ //   description: 'Ultimate checklist of online security tips',
+ //   tech: 'Solid',
+ //   logo: 'https://i.ibb.co/Rb6P6h6/shield.png',
+ //   stars: '17k',
+ //   repo: 'lissy93/personal-security-checklist',
+ //   web: 'https://digital-defense.io',
+ // },
   {
-    name: 'Dashy',
-    description: 'Control panel for self-hosting',
-    tech: 'Vue',
-    logo: 'https://dashy.to/img/dashy.png',
-    stars: '17k',
-    repo: 'lissy93/dashy',
-    web: 'https://dashy.to',
+    name: 'VoidXedis.com',
+    description: 'Fully Integrated into several social media platforms and POD distributors',
+    tech: 'Shopify',
+    logo: '',
+    stars: '',
+    repo: '',
+    web: 'https://voidxedis.com',
   },
   {
-    name: 'Web-Check',
-    description: 'All-in-one OSINT and security scanner',
-    tech: 'React',
-    logo: 'https://v1.web-check.xyz/web-check.png',
-    stars: '20k',
-    repo: 'lissy93/web-check',
-    web: 'https://web-check.xyz',
-  },
-  {
-    name: 'Digital Defense',
-    description: 'Ultimate checklist of online security tips',
-    tech: 'Solid',
-    logo: 'https://i.ibb.co/Rb6P6h6/shield.png',
-    stars: '17k',
-    repo: 'lissy93/personal-security-checklist',
-    web: 'https://digital-defense.io',
-  },
-  {
-    name: 'Awesome Privacy',
-    description: 'Curated list of verified privacy-respecting services',
-    tech: 'Astro',
-    logo: 'https://github.com/Lissy93/awesome-privacy/blob/gh-pages/awesome-privacy.png?raw=true',
-    stars: '7k',
-    repo: 'lissy93/awesome-privacy',
-    web: 'https://awesome-privacy.xyz',
-  },
-  {
-    name: 'AdGuardian Term',
-    description: 'Real-time traffic monitoring',
-    tech: 'Rust',
-    logo: 'https://i.ibb.co/25GNT0n/adguardian-banner-4.png',
+    name: 'SD.Next',
+    description: 'Diffusion based webui for Stable-diffusion, Klansky, FLUX and countless others',
+    tech: 'Python,Pytorch',
+    logo: 'https://github.com/vladmandic/automatic/blob/d7264ed2c3be6d0ae9a9c1c1055e91c9e22f06dc/html/favicon.png',
     stars: '1k',
-    repo: 'lissy93/AdGuardian-Term',
-    web: 'https://adguardian.as93.net'
+    repo: 'vladmandic/automatic',
+    web: 'https://github.com/vladmandic/automatic'
   },
   {
-    name: 'Portainer Templates',
-    description: 'Over 500 1-click Docker apps',
-    tech: 'Python',
-    logo: 'https://i.ibb.co/hMymwH0/portainer-templates-small.png',
-    stars: '2k',
-    repo: 'Lissy93/portainer-templates',
-    web: 'https://portainer-templates.as93.net',
+    name: 'DeviantArt Artist',
+    description: 'Posting of AI Generated NSFW images for deviants',
+    tech: 'API',
+    logo: 'https://logos-world.net/wp-content/uploads/2020/11/DeviantArt-Logo.png',
+    stars: '4.5k Watchers',
+    repo: '',
+    web: 'https://www.deviantart.com/x-the-void-x',
   },
 ];
 
@@ -164,7 +160,7 @@ const normalizeUrl = (url: string) => {
 </script>
 
 <svelte:head>	
-	<title>Alicia Sykes | CV | Achievements</title>
+	<title>Chris Xedis | CV | Achievements</title>
 </svelte:head>
 
 <h2>Achievements</h2>
@@ -197,7 +193,7 @@ const normalizeUrl = (url: string) => {
 
 <hr>
 
-<h3>Hackathons</h3>
+<!--<h3>Hackathons</h3>
 <ul class="hackathons">
   {#each hackathonWins as win}
     <li>
@@ -206,7 +202,7 @@ const normalizeUrl = (url: string) => {
     </li>
   {/each}
 </ul>
-
+-->
 <hr>
 
 <h3>Flagship Projects</h3>
@@ -244,12 +240,11 @@ const normalizeUrl = (url: string) => {
 
 
 <p class="projects-more">
-  The above list are a selection of projects I have built, which demonstrate my
-  competency with  React, Vue, Svelte, Rust and Python.
+  The above list is some stuff I contribute to or attempted to grow as a social media presence, for a time I thought I could make a side hustle out of AI generated art, 
+  I really do enjoy making it. 
+  I also have an AWS Organization I've built out for a side project that hasn't hit the public yet. <a href="https://voidxedis.awsapps.com/start/#/">VoidXedis AWS SSO</a>
   <br><br>
-  I am incredibly quick to learn new tech stacks, and am able to take a new project
-  from zero to production in a matter of days, while maintaining a high quality of code.
-  You can view my full catalog of apps at <a href="https://apps.aliciasykes.com">apps.aliciasykes.com</a>.
+  I'm good at learning new tech, you can see some of my homelab @ <a href="https://dashy.xedis.net/home/homelab">dashy.xedis.net</a>.
 </p> 
 
 <style lang="scss">

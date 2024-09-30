@@ -19,8 +19,8 @@ SCHEMA := schema.json
 RESUME := resume.yml
 TEMPLATE := template.jinja
 OUTPUT_TEX := tex/resume.tex
-OUTPUT_PDF := out/Alicia-Sykes-CV.pdf
-OUTPUT_MD := out/Alicia-Sykes-CV.md
+OUTPUT_PDF := out/Chris-Xedis-CV.pdf
+OUTPUT_MD := out/Chris-Xedis-CV.md
 
 # Default target. Install deps, validate, generate, compile, and clean up
 all: install clean validate generate compile markdown

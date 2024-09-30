@@ -1,7 +1,7 @@
 export async function GET() {
-  const repoOwner = 'Lissy93';
+  const repoOwner = 'xedis';
   const repoName = 'cv';
-  const assetName = 'Alicia-Sykes-CV.pdf';
+  const assetName = 'Chris-Xedis-CV.pdf';
 
   // Fetch the latest release data from GitHub API
   const response = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/releases/latest`);
