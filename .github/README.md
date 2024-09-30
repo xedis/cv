@@ -1,21 +1,16 @@
-<h1 align="center">Alicia Sykes - CV</h1>
+<h1 align="center">Chris Xedis - CV</h1>
 <p align="center">
-<!-- <a href="https://github.com/Lissy93/cv"><img src="https://i.ibb.co/8BV5p7L/CV-Logo-Alicia-Sykes.png" width="128" /><br /></a> -->
+<!-- <a href="https://github.com/xedis/cv"><img src="" width="128" /><br /></a> -->
 <i>This repo contains the source for my personal CV</i>
 <br />
-<b>🌐 <a href="https://cv.aliciasykes.com/">cv.aliciasykes.com</a> | 📄 <a href="https://cv.aliciasykes.com/download"><code>Alicia-Sykes-CV.pdf</code></a></b> <br />
+<b>🌐 <a href="https://cv.xedis.net/">cv.xedis.net</a> | 📄 <a href="https://cv.xedis.net/download"><code>Chris-Xedis-CV.pdf</code></a></b> <br />
 </p>
 <br />
 
 
 
 
-> **Backstory**<br>
-> I've just been made redundant 😢 (Aug '24), which I am gutted about. I've never been laid off before, and I loved my job and the people I worked with. So I'm now on the market, looking for a new role!
->
-> I've kept my CV/resume **very** brief, in an attempt respect the hiring manager's time. But in short, I'm an experienced, Principle-level full stack engineer with a love for quality, performance, mentoring, tech and open source. The best judge of a developer is their code, and while I cannot share what I've done professional or for private clients, I have got many open source projects on my [GitHub](https://github.com/lissy93) and at [apps.aliciasykes.com](https://apps.aliciasykes.com).
-
----
+## All Credit for framework goes to @Lissy93
 
 ## About
 
@@ -78,7 +73,6 @@ The source for the website version is located in [`web/`](/web)
 
 ## Screenshot
 
-<p align="center"><a href="https://cv.aliciasykes.com"><img width="650" src="https://i.ibb.co/7NjgmHC/alicia-sykes-cv-mockup.png?" /></a></p>
 
 ---
   
@@ -88,12 +82,6 @@ The source for the website version is located in [`web/`](/web)
 ### Contributors
 
 ![Contributors](https://readme-contribs.as93.net/contributors/lissy93/cv)
-
-### Sponsors
-
-![Sponsors](https://readme-contribs.as93.net/sponsors/lissy93)
-
----
 
 ## License
 

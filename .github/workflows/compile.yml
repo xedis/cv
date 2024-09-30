@@ -16,7 +16,7 @@ on:
       - completed
 
 env:
-  PDF_NAME: Alicia-Sykes-CV.pdf
+  PDF_NAME: Chris-Xedis-CV.pdf
 
 jobs:
   build:
