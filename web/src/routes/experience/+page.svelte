@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>	
-	<title>Chris Xedis | CV | Experience</title>
+	<title>Chris Xedis | CV | Experience </title>
 </svelte:head>
 
 <h1>Experience</h1>
