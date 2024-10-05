@@ -4,11 +4,7 @@ basics:
   url: https://dashy.xedis.net
   location:
     address: Las Vegas, NV
-personal-statement: Dynamic and adaptable professional with over 2 decades of experience in 
-  technology.  Specializing in security, Point of Sale (POS) integration, video and audio streaming and recording. Proven track 
-  record in leading development and deployment of cybersecurity standards across extensive production 
-  assets. Passionate about continuous learning and tackling new challenges in fast-paced 
-  environments. Skilled at breaking broken things worse to fix them, sharing the lessons learned.
+personal-statement: Dynamic tech professional with 20+ years of experience in security, POS integration, and media streaming. Proven leader in deploying cybersecurity standards across large-scale production assets. Passionate about continuous learning and tackling challenges in fast-paced environments. Expert in root cause analysis and delivering cost-effective solutions with process improvements.
 extra-links:
   work_history:
     text: See all previous roles at linkedin.com/in/xchrisx
@@ -22,37 +18,37 @@ work:
   startDate: 2022-12
   endDate: 2024-08
   highlights:
+  - Led production security over 40,000 devices representing 50M in annual recurring revenue; software upgrades and security compliance.
   - Championed security thinking and ensured solutions were deployed within budget constraints
   - Conducted compliance assessments against the CIS Controls, PCI and beginnings of ISO 27000 series.
   - Designed a robust 5-year Security plan that could be worked into the development roadmap.
   - Established effective communication channels to enhance security awareness.
   - Implemented solutions that had minimal negative impact to internal/external customers.
   - Managed and resolved security incidents.
-  - Oversaw continuous security monitoring of edge devices and unified OS patches across diverse hardware.
   - Participated in penetration testing and drove secure code practices through creative collaboration.
-  - Provided live demonstrations with practical real-world scenarios to show leadership the real world risk the initiatives resolved.
+  - Provided live demonstrations with practical real-world scenarios to show the real world risk the initiatives addressed.
 - name: DTiQ
   position: Advanced Technology Manager
   startDate: 2018-07
   endDate: 2024-08
   highlights:
-  - Advised CIO/CTO/CEO on complex technical issues.
-  - Created roadmaps, optimized processes, and conducted compliance and security maintenance audits.
-  - Effective resolver of escalations both within my team and across the enterprise. Was an “In the trenches” Technical Manager.
-  - Established effective pipelines for process development by leading cross-department bridge-building
-  - Facilitated integration post-acquisition, led new platform onboarding, and migrated existing hardware.
-  - Mastered POS integration and application management.
-  - Provided Executive Level Summaries along with relevant context and details just in case a nuance was overlooked.
-  - Reported directly to the CTO. Advanced Technology Group (ATG) was similar to Office of the CTO elsewhere.
+  - Advised C-suite on technical issues during the migration of 15,000+ edge devices.
+  - Developed roadmaps, optimized processes, and conducted security audits.
+  - Led Quarterly Business Reviews and platform approvals, impacting $20M ARR.
+  - Expert in escalations, fostering cross-department collaboration.
+  - Integrated 15,000 devices post-acquisition and led platform onboarding.
+  - Mastered POS integration, providing training and coaching.
+  - Managed lifecycle of 40,000 devices, ensuring compliance and performance.
+  - Reported directly to the CTO, leading the Advanced Technology Group.
 - name: DTiQ
   position: Systems Analyst
   startDate: 2017-03
   endDate: 2018-07
   highlights:
-  - Created automation solutions to enhance existing processes.
+  - Created automation solutions to enhance existing processes saving over 2,000 hours in manual support hours.
   - Developed, tested, and deployed software updates in a medium to large production environment.
   - Trained teams on proprietary technology and solutions, providing leadership and development coaching.
-  - Generated extensive knowledgebase documentation. 
+  - Generated extensive knowledgebase documentation utilized by both technical and non-technical departments
 skills:
 - name: Security
   keywords:
@@ -75,8 +71,8 @@ skills:
   keywords:
   - PCI 4.0.1
   - CIS Controls 8.1
-  - NIST
-  - ISO/IEC 27000
+  - NIST 800-63
+  - MITRE ATT&CK
 - name: Production 
   keywords:
   - ProxMox
@@ -118,7 +114,7 @@ skills:
   - Squarespace
 projects: []
 achivments:
-  - Designed and deployed Wazuh cluster to AWS and wrote a python package to install Wazuh agent paired with Sysmon on 15k production assets across the globe.
-  - Found creative ways to inspire secure thinking throughout the SDLC; From Planning to Maintaining; incl but not limited to; Production Deployments, Edge Device Image Creation, Auth creation,handling and storage.
-  - Led a team of highly skilled unique characters, rejects and problem children, harnessing their powers for the greater good of the company rising to the go to team when things hit the fan and needed outside of process thinking. 
-  - All my knowledge and skills have been acquired through either self study, self driven experimentation, or in production environent escalations and dumpster fires. Autodidact, I can learn anything I need to learn in order to achieve my task at hand. 
+- Deployed a Wazuh cluster in AWS, integrating Wazuh Agent w/ Sysmon enhanced logs on 40,000 global production assets.
+- Inspired secure thinking throughout the Software Development Life Cycle (SDLC).
+- Led and mentored a team, transforming them into the "A-team" for escalations with innovative problem-solving.
+- Self-taught autodidact, continuously learning through experimentation and real-world challenges.

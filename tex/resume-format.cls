@@ -120,7 +120,7 @@
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=0.5cm, right=2.0cm, bottom=0.5cm, footskip=.5cm}
+\geometry{left=1.0cm, top=0.25cm, right=2.0cm, bottom=0.25cm, footskip=.25cm}
 
 %% Header & Footer
 % Set offset to each header and offset
@@ -137,8 +137,8 @@
 %                Configuration for colors
 %-------------------------------------------------------------------------------
 % Gray-scale colors
-\definecolor{white}{HTML}{FFFFFF}
-\definecolor{black}{HTML}{000000}
+\definecolor{white}{HTML}{000000}
+\definecolor{black}{HTML}{FFFFFF}
 \definecolor{darkgray}{HTML}{333333}
 \definecolor{gray}{HTML}{5D5D5D}
 \definecolor{lightgray}{HTML}{999999}

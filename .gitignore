@@ -60,3 +60,7 @@ Thumbs.db
 *.backup
 *.old
 *.swp
+
+
+.vscode
+cv-data.json
